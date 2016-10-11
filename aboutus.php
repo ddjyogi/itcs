@@ -1,2 +1,5 @@
-<h3>This is About Us Page</h3>
+<?php
+    include 'aboutus_text.php';
+    include 'aboutus_team.php';
+?>
 
