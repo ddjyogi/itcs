@@ -13,14 +13,22 @@
             </div>
         </div>
         <div class="header_mbar">
-            <ul>
-                <li>Home</li>
+            <!--<ul>
+                
                 <li>About Us</li>
                 <li>Portfolio</li>
                 <li>Our Services</li>
                 <li>Blog</li>
                 <li>Contact Us</li>
-            </ul>
+            </ul>-->
+            <div class="hmenu">                
+                <div><a href=""><li class="header_mblock">Home</li></a></div>
+                <div><a href=""><li class="header_mblock">About Us</li></a></div>
+                <div><a href=""><li class="header_mblock">Portfolio</li></a></div>
+                <div><a href=""><li class="header_mblock">Services</li></a></div>
+                <div><a href=""><li class="header_mblock">Blog</li></a></div>
+                <div><a href=""><li class="header_mblock">Contact Us</li></a></div>
+            </div>
         </div>        
     </div>    
 </div>
