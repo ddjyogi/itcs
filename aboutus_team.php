@@ -3,7 +3,7 @@
         <label>Management Team</label>
     </div>
     <div class="abteam_img">
-        <div class="">
+        <div class="teamimg">
             <figure>
                 <img src="images/ck.jpg" />
                 <figcaption>Chetan Khurana</figcaption>
