@@ -13,7 +13,8 @@ $get_loremr = get_lorem(); //This variable displays Lorem. Use <?php "echo $get_
             }
             elseif(isset ($_GET['index']))
             {
-                echo $get_loremr['loremcon'];
+                include 'home.php';
+                //echo $get_loremr['loremcon'];
             }
             elseif(isset ($_GET['portfolio']))
             {
