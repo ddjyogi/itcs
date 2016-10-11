@@ -6,6 +6,36 @@ $get_loremr = get_lorem(); //This variable displays Lorem. Use <?php "echo $get_
 ?>
 <div class="middle">
     <div class="middle_mainpage">        
-        <h3><?php echo $get_loremr['loremcon'];?></h3>        
+        <?php
+            if(isset($_GET['about_us']))
+            {
+                include 'aboutus.php';
+            }
+            elseif(isset ($_GET['index']))
+            {
+                echo $get_loremr['loremcon'];
+            }
+            elseif(isset ($_GET['portfolio']))
+            {
+                include 'portfolio.php';;
+            }
+            elseif(isset ($_GET['services']))
+            {
+                include 'services.php';
+            }
+            elseif(isset ($_GET['blog']))
+            {
+                include 'blog.php';
+            }
+            elseif(isset ($_GET['contact_us']))
+            {
+                include 'contactus.php';
+            }
+        ?>        
     </div>
 </div>
+<?php
+    
+
+
+?>
