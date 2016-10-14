@@ -3,14 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/cpcs/mainbody.php</file>
-            <file>file:/C:/wamp64/www/cpcs/index.php</file>
-            <file>file:/C:/wamp64/www/cpcs/header_main.php</file>
-            <file>file:/C:/wamp64/www/cpcs/css/cssmain.css</file>
-            <file>file:/C:/wamp64/www/cpcs/config.php</file>
-            <file>file:/C:/wamp64/www/cpcs/login.php</file>
-            <file>file:/C:/wamp64/www/cpcs/footer.php</file>
-            <file>file:/C:/wamp64/www/cpcs/mainp.php</file>
+            <file>file:/C:/wamp64/www/cpcs/itcs/header_main.php</file>
+            <file>file:/C:/wamp64/www/cpcs/itcs/css/cssmain.css</file>
+            <file>file:/C:/wamp64/www/cpcs/itcs/aboutus_team.php</file>
+            <file>file:/C:/wamp64/www/cpcs/itcs/mainbody.php</file>
+            <file>file:/C:/wamp64/www/cpcs/itcs/aboutus.php</file>
+            <file>file:/C:/wamp64/www/cpcs/itcs/home.php</file>
         </group>
     </open-files>
 </project-private>
