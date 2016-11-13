@@ -21,7 +21,7 @@
             {
                 include 'portfolio.php';;
             }
-            elseif(isset($_GET['services']))
+            elseif(isset($_GET['2451541s654su']))
             {
                 include 'services.php';
             }
@@ -29,7 +29,7 @@
             {
                 include 'blog.php';
             }
-            elseif(isset($_GET['contact_us']))
+            elseif(isset($_GET['2451541c654su']))
             {
                 include 'contactus.php';
             }
