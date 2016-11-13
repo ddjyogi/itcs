@@ -10,6 +10,7 @@
             
             if(isset($_GET['about_us']))
             {
+                include 'menu_all.php';
                 include 'aboutus.php';
             }
             elseif(isset($_GET['index']))
@@ -19,10 +20,12 @@
             }
             elseif(isset($_GET['portfolio']))
             {
+                include 'menu_all.php';
                 include 'portfolio.php';;
             }
             elseif(isset($_GET['2451541s654su']))
             {
+                include 'menu_all.php';
                 include 'services.php';
             }
             elseif(isset($_GET['blog']))
@@ -31,7 +34,38 @@
             }
             elseif(isset($_GET['2451541c654su']))
             {
+                include 'menu_all.php';
                 include 'contactus.php';
+            }
+            elseif(isset($_GET['2451541r654se']))
+            {
+                include 'menu_all.php';
+                include 'rpo.php';;
+            }
+            elseif(isset($_GET['2451541op654s']))
+            {
+                include 'menu_all.php';
+                include 'operex.php';;
+            }
+            elseif(isset($_GET['2451541b654se']))
+            {
+                include 'menu_all.php';
+                include 'bpre.php';;
+            }
+            elseif(isset($_GET['2451541c654sc']))
+            {
+                include 'menu_all.php';
+                include 'controlnc.php';;
+            }
+            elseif(isset($_GET['2451541a654mr']))
+            {
+                include 'menu_all.php';
+                include 'amr.php';;
+            }
+            elseif(isset($_GET['2451541r654td']))
+            {
+                include 'menu_all.php';
+                include 'techdep.php';;
             }
             else{
                 include 'home.php';
