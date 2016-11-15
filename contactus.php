@@ -2,7 +2,7 @@
     <div class="cubody">
         <div class="serleftblock">    
                 <div class="serblank"></div>
-                <div class="serblank"></div>
+                
                 <div class="serblank"></div>
                 <div class="cu_title">
                     <h2>Contact&nbsp;Us</h2>
@@ -35,7 +35,7 @@
                     <tr><td class="checkbox_row"><input id="techdev" name="techdev" type="checkbox" /></td><td><label for="techdev">Technology Deployment</label></td></tr>
                 </tbody>
                 <tbody>
-                    <tr><td class="lcublock"><label for="message">Message</label></td><td class="lcublock"><textarea id="message" name="message" cols="50" rows="5"></textarea></td></tr>
+                    <tr><td class="lcublock"><label for="message">Message</label></td><td class="lcublock"><textarea id="message" name="message" cols="41" rows="5"></textarea></td></tr>
                 </tbody>
                 <tbody>
                     <tr><td><input type="submit" name="submit" value="Send"/></td></tr>
