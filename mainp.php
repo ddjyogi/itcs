@@ -3,7 +3,7 @@
     <?php
         include 'header_main.php';
         include 'mainbody.php';
-        include 'footer.php';
+        //include 'footer.php';
     ?>
     </div>
 </div>

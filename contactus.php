@@ -1,8 +1,7 @@
 <div class="white_color">
     <div class="cubody">
         <div class="serleftblock">    
-                <div class="serblank"></div>
-                
+                <div class="serblank"></div>                
                 <div class="serblank"></div>
                 <div class="cu_title">
                     <h2>Contact&nbsp;Us</h2>
@@ -27,12 +26,10 @@
                     <label>How can we help you?</label>
                 </tbody>    
                 <tbody>
-                    <tr><td class="checkbox_row"><input id="rpo" name="" type="checkbox" /></td><td><label for="rpo">RPO</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="operexel" name="operexel" type="checkbox" /></td><td class="checkbox_row"><label for="operexel">Operational Excellence</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="controlnc" name="controlnc" type="checkbox" /></td><td><label for="controlnc">Control & Compliance</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="bpre" name="bpre" type="checkbox" /></td><td><label for="bpre">Business Process Re-engineering</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="analyticmr" name="analyticmr" type="checkbox" /></td><td><label for="analyticmr">Analytics & Management Reporting</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="techdev" name="techdev" type="checkbox" /></td><td><label for="techdev">Technology Deployment</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="rpo" name="" type="checkbox" /></td><td><label for="rpo">HR Services</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="operexel" name="operexel" type="checkbox" /></td><td class="checkbox_row"><label for="operexel">Business Insight Services</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="controlnc" name="controlnc" type="checkbox" /></td><td><label for="controlnc">Technology Services</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="bpre" name="bpre" type="checkbox" /></td><td><label for="bpre">Financial & Information Services</label></td></tr>                    
                 </tbody>
                 <tbody>
                     <tr><td class="lcublock"><label for="message">Message</label></td><td class="lcublock"><textarea id="message" name="message" cols="41" rows="5"></textarea></td></tr>

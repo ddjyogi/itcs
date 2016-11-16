@@ -8,7 +8,7 @@
     <div class="middle_mainpage">        
         <?php
             
-            if(isset($_GET['about_us']))
+            if(isset($_GET['2451541ab654s']))
             {
                 include 'menu_all.php';
                 include 'aboutus.php';
@@ -18,7 +18,7 @@
                 include 'home.php';
                 //echo $get_loremr['loremcon'];
             }
-            elseif(isset($_GET['portfolio']))
+            elseif(isset($_GET['2451541s654po']))
             {
                 include 'menu_all.php';
                 include 'portfolio.php';;

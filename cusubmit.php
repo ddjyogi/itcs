@@ -5,7 +5,7 @@ $name = $first_name.' '.$last_name;
 $company = $_POST['company'];
 $email = $_POST['email'];
 
-$to = "khuranachetan@gmail.com";
+$to = "khuranachetan@gmail.com, yogendra.tanwar@gmail.com";
 $tocust = "$email";
 $phone = $_POST['phone'];
 $subject = $name." ".$company." ".$phone;
@@ -15,7 +15,7 @@ Email from $name
 My email id is $email
 Message: $message
 EMAIL;
-//mail($to, $subject, $message, "From: ".$email);
+mail($to, $subject, $message, "From: ".$email);
 echo 'Message sent! Thank you for showing interest';
 
 $messagecust = $_POST['message'];

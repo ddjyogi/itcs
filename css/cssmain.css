@@ -11,6 +11,8 @@ body{background-image:url(../images/cor1.jpg); background-repeat: no-repeat; bac
      line-height: 22px; color: #535b60;}
 .mainbody{background-color: cornsilk; margin: 0; padding: 0;}
 .mainbody_1024{ width: 1024px; margin: 0 auto;}
+.font14px{font-size: 14px;}
+.textcenter{text-align: center;}
 .header_block{float: left; margin: 8px 0 0 0; width: 100%;}
 .hb1{width: 1024px; margin: 0 auto; /*border: 1px solid greenyellow;*/}
 .hb1h3{margin: 0 auto; padding: 0;}
@@ -91,7 +93,7 @@ body{background-image:url(../images/cor1.jpg); background-repeat: no-repeat; bac
 .white_color{color: #00abc5;}
 .cubody{margin: 73px 0 0 0; width: 100%; float: left;}
 .cu_title{float: left; transform: rotate(270deg); font-size: 48px; width: 100%;}
-.cumain{float: left; width: 84%;background: rgba(128,128,128,0.7);}
+.cumain{float: left; width: 84%;background: rgba(128,128,128,0.7);border: 2px solid white;}
 .left_cu{color: gainsboro;float: left; display: block;font-weight: 900; width: 49%; text-align: center;}
 .table_cu{width: 99%;}
 .lcublock{padding: 14px 0 14px 0;}
@@ -106,7 +108,9 @@ body{background-image:url(../images/cor1.jpg); background-repeat: no-repeat; bac
 .sertitle{float: left; transform: rotate(270deg); font-size: 48px; width: 100%;}
 .sermain{float: left; width: 84%;}
 .serblock1{float: left; width: 100%; height: 60px;}
-.serblock2{}
+.serblock2{background: rgba(128,128,128,.7); color: white; width: 100%; float: left;}
+.serblock2table{width: 100%;border-collapse: collapse;}
+.border{border: 2px solid white; text-align: center;}
 .serblock2img1{height: 188px; float: left; text-align: center; width: calc(99.5%/3);}
 .serblock3{float: left; width: 100%; height: 200px;}
 
