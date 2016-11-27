@@ -52,18 +52,19 @@
             <div class="right_cu">
             <table class="table_cu">
                 <tbody>
-                    <label>How can we help you?</label>
+                    <label>How can we help you?</label>&nbsp;<span id="errchbx" class="error">Please select one of the services</span>
                 </tbody>    
                 <tbody>
-                    <tr><td class="checkbox_row"><input id="rpo" name="" type="checkbox" /></td><td><label for="rpo">HR Services</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="operexel" name="operexel" type="checkbox" /></td><td class="checkbox_row"><label for="operexel">Business Insight Services</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="controlnc" name="controlnc" type="checkbox" /></td><td><label for="controlnc">Technology Services</label></td></tr>
-                    <tr><td class="checkbox_row"><input id="bpre" name="bpre" type="checkbox" /></td><td><label for="bpre">Financial & Information Services</label></td></tr>                    
+                    <tr><td class="checkbox_row"><input id="rpo" name="rpo" type="checkbox" value="HR Services" /></td><td><label for="rpo">HR Services</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="bis" name="bis" type="checkbox" value="Business Insight Services" /></td><td class="checkbox_row"><label for="bis">Business Insight Services</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="techs" name="techs" type="checkbox" value="Technology Services" /></td><td><label for="techs">Technology Services</label></td></tr>
+                    <tr><td class="checkbox_row"><input id="fis" name="fis" type="checkbox" value="Financial & Information Services" /></td><td><label for="fis">Financial & Information Services</label></td></tr>                    
                 </tbody>
                 <tbody>
                     <tr>
                         <td class="lcublock"><label for="message">Message</label></td><td class="lcublock">
                             <textarea id="message" name="message" cols="41" rows="5"></textarea>
+                            <span id="errmsg" class="error">Please enter your message with minimum 10 and maximum 250 words</span>
                         </td>
                     </tr>
                 </tbody>

@@ -67,6 +67,11 @@
                 include 'menu_all.php';
                 include 'techdep.php';;
             }
+            if(isset($_GET['2451541c654th']))
+            {
+                include 'menu_all.php';
+                include 'cusubmit.php';
+            }
             else{
                 include 'home.php';
             }
