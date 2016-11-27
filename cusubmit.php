@@ -39,7 +39,7 @@ if($fis!="")
 $sermsg.=$fis;
 $newmsg = $sermsg;
 
-$to = "yogendra.tanwar@gmail.com"; //khuranachetan@gmail.com,
+$to = "khuranachetan@gmail.com, yogendra.tanwar@gmail.com";
 $tocust = "$email";
 $phone = $_POST['phone'];
 $subject = $name." ".$company." ".$phone;
@@ -94,11 +94,9 @@ mail($tocust, $subject, $messagecust, "From: ".$email);
                     include 'header_main.php';
                     include 'menu_all.php';
                 ?>
-                <div class="middle">
-                    <div class="middle_mainpage">
-                        <div class="thanks_main"><span>Message sent! Thank you for showing interest&nbsp;<?php echo $name; ?></span></div>
-                    </div>
-                </div>
+ 
+                <div class="thanks_main"><span class="thanks_span">Message sent! Thank you for showing interest&nbsp;<?php echo $name; ?></span></div>
+ 
             </div>
         </div>
     </body>

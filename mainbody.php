@@ -71,15 +71,7 @@
             {
                 include 'menu_all.php';
                 include 'cusubmit.php';
-            }
-            else{
-                include 'home.php';
-            }
+            }            
         ?>        
     </div>
 </div>
-<?php
-    
-
-
-?>
