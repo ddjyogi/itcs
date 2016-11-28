@@ -1,13 +1,18 @@
 <div class="white_color">
     
         <div class="serleftblock">    
-                <div class="serblank"></div>                
+                <div class="serblank"></div>
+                <div class="serblank"></div>
                 <div class="serblank"></div>
                 <div class="cu_title">
                     <h2>Contact&nbsp;Us</h2>
                 </div>
         </div>
-        
+        <div class="sermain">
+            <div class="serblock1">
+
+            </div>
+            <div class="serblock2">
             <form action="cusubmit.php" onsubmit="return validate()" method="post" name="cusubmit">
             <div class="left_cu">        
                 <table class="table_cu">
@@ -74,6 +79,6 @@
             </table>
             </div>
             </form>
-        
-    
+            </div>
+        </div>
 </div>
