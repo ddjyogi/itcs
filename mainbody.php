@@ -72,6 +72,12 @@
                 include 'menu_all.php';
                 include 'cusubmit.php';
             }
+            elseif(isset($_GET['2451541bp654r']))
+            {
+                include 'menu_all.php';
+                include 'bpre.php'; //User clicks on Business Process Insight link from services page
+            }
+            
             else{
                 include 'home.php';
             }

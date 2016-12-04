@@ -6,7 +6,33 @@
     font-family: "myOcra";
     src: url(../font/ocra.ttf) format('truetype');
 }
-body{background-image:url(../images/cor1.jpg); background-repeat: no-repeat; background-size: 100% 768px; 
+* {
+    box-sizing: border-box;
+}
+p{margin: 0; padding: 0;}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body{background-image:url(../images/cor1.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 768px; 
      margin: 0; padding: 0;font-family: "myOcra",Helvetica, sans-serif; font-size: 12px; 
      line-height: 22px; color: #535b60;}
 .star{color: red; font-weight: 900;}
@@ -21,7 +47,7 @@ body{background-image:url(../images/cor1.jpg); background-repeat: no-repeat; bac
 .header_mbar_all{float: left;width: 100%;}
 .header_mblockp_all{font-size: 10px;}
 .header_mblock_all{background-color: gray; color: white; font-size: 14px; font-family: "myOcra"; 
-    font-weight: 900;display: inline-block; width: calc(89%/5); cursor: pointer; text-align: center; 
+    font-weight: 900;display: inline-block; width: calc(99%/5); cursor: pointer; text-align: center; 
     float: left;padding: 1px 1.6678% 1px 1.6678%;}
 .header_mblock_all:hover{background-color: whitesmoke; color: gray; font-weight: 900; overflow: hidden; transition: none;}
 .header_mblock_all > a{text-decoration: none; color: powderblue; font-weight: 900;}
@@ -114,7 +140,11 @@ body{background-image:url(../images/cor1.jpg); background-repeat: no-repeat; bac
 .serblock1{float: left; width: 100%; height: 60px;}
 .serblock2{background: rgba(128,128,128,.7); color: white; width: 100%; float: left;}
 .serblock2table{width: 100%;border-collapse: collapse;}
+.serblock2head{text-align: center;}
 .border{border: 2px solid white; text-align: center;}
+.border:hover{background: silver; transition: background 0.5s linear 0s, color 0.5s linear 0s;}
+.border > h1 > a{text-decoration: none; color: #fff;}
+.borderr{border: 2px solid white; text-align: center;}
 .serblock2img1{height: 188px; float: left; text-align: center; width: calc(99.5%/3);}
 .serblock3{float: left; width: 100%; height: 200px;}
 

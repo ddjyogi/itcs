@@ -16,12 +16,12 @@
                 <table class="serblock2table">
                     <tbody class="">
                         <tr class="">
-                            <td class="border"><h1>HR Services</h1></td>
-                            <td class="border font14px">Recruitment Process Outsourcing</td>
+                            <td class="border"><h1><a href="index.php?2451541hp654r">HR Services</a></h1></td>
+                            <td class="borderr font14px">Recruitment Process Outsourcing</td>
                         </tr>
                         <tr class="">
-                            <td class="border"><h1>Business Insight Services</h1></td>
-                            <td class="border">
+                            <td class="border"><h1><a href="index.php?2451541bp654r" >Business Insight Services</a></h1></td>
+                            <td class="borderr">
                                 <table class="serblock2table font14px">
                                     <tr><td>Operational Excellence</td></tr>
                                     <tr><td>Control & Compliance</td></tr>
@@ -30,8 +30,8 @@
                             </td>
                         </tr>
                         <tr class="">
-                            <td class="border"><h1>Technology Services</h1></td>
-                            <td class="border">
+                            <td class="border"><h1><a href="index.php?2451541te654s">Technology Services</a></h1></td>
+                            <td class="borderr">
                                 <table class="serblock2table font14px">
                                     <tr><td>Technology Deployment</td></tr>
                                     <tr><td>Business Process Re-Engineering</td></tr>                                
@@ -39,8 +39,8 @@
                             </td>
                         </tr>
                         <tr class="">
-                            <td class="border"><h1>Financial & Information Services</h1></td>
-                            <td class="border font14px">Financial Planning, Reporting & Control</td>
+                            <td class="border"><h1><a href="index.php?2451541fi654s">Financial & Information Services</a></h1></td>
+                            <td class="borderr font14px">Financial Planning, Reporting & Control</td>
                         </tr>
                     </tbody>
                 </table>
