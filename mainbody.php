@@ -77,7 +77,16 @@
                 include 'menu_all.php';
                 include 'bpre.php'; //User clicks on Business Process Insight link from services page
             }
-            
+            elseif(isset($_GET['2451541hp654r']))
+            {
+                include 'menu_all.php';
+                include 'rpo.php'; //User clicks on HR Services link from services page
+            }
+            elseif(isset($_GET['2451541te654s']))
+            {
+                include 'menu_all.php';
+                include 'techdep.php'; //User clicks on Technology Services link from services page
+            }            
             else{
                 include 'home.php';
             }
